@@ -5,7 +5,7 @@
 <b>Fundamentos Angular</b><br/>
 <ol start="1">
   <li>Angular: Começando com o framework ✔</li>
-  <li>Angular: Boas práticas em arquiteturas e formulários</li>
+  <li>Angular: Boas práticas em arquiteturas e formulários ✔</li>
   <li>Angular: Controle o fluxo de navegação</li>
 </ol><br/>
 
