@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MensagemModule } from './../componentes/mensagem/mensagem.module';
 import { NgModule } from '@angular/core';
@@ -13,6 +14,6 @@ import { ComentariosComponent } from './detalhe-animal/comentarios/comentarios.c
 
 @NgModule({
   declarations: [ListaAnimaisComponent, AnimalComponent, GradeFotosAnimaisComponent, DetalheAnimalComponent, ComentariosComponent],
-  imports: [CommonModule, AnimaisRoutingModule, CartaoModule, MensagemModule, ReactiveFormsModule],
+  imports: [CommonModule, AnimaisRoutingModule, CartaoModule, SharedModule],
 })
 export class AnimaisModule {}
